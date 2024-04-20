@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from hangarscript.com/auth/login by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Apr 2024 08:28:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<title>Login | Hangar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/opensans-font.css">
+<link rel="stylesheet" type="text/css" href="assets/fonts/line-awesome/css/line-awesome.min.css">
+<link rel="stylesheet" href="assets/css/style7839.css?v=1.2" />
+<link rel="stylesheet" href="../../jqueryvalidation.org/files/demo/site-demos.html">
+<script src="../../www.google.com/recaptcha/api.js" type="990c76d2bc47f08752f2d2f1-text/javascript"></script>
+<META NAME="robots" CONTENT="noindex,nofollow" />
+</head>
+<body>
+<div id="page">
+<div class="hangar-auth">
+<div class="hangar-form">
+<a aria-label="go_back" class="go_back" href="https://hangarscript.com/">
+<svg class="hangar-ui-svg" focusable="false" viewBox="0 0 24 24" aria-hidden="true" aria-label="Go back" style="width: 1.5em; height: 1.5em;">
+<path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+</svg>
+</a>
+<a class="go_signup" href="https://hangarscript.com/auth/register">
+<i style="font-size: 1.45em;" class="fa fa-user-plus"></i>
+</a>
+<img draggable="false" src="https://hangarscript.com/assets/img/logo.webp" alt="Login" class="hangar-logo">
+<h1 class="hangar-auth_title">
+<i class="fad fa-sign-in-alt"></i>
+<span>Login</span>
+</h1>
+<form class="hangar-fieldset">
+<div class="hangarFormControl-root hangarTextField-root jss1 acceptable_user">
+<label class="acceptable_user hangarFormLabel-root hangarInputLabel-root hangarInputLabel-formControl hangarInputLabel-animated hangarInputLabel-shrink hangarInputLabel-outlined" data-shrink="true">Username</label>
+<div class="acceptable_user hangarInputBase-root hangarOutlinedInput-root hangarInputBase-formControl hangarInputBase-adornedStart hangarOutlinedInput-adornedStart">
+<div class="acceptable_user hangarInputAdornment-root hangarInputAdornment-positionStart">
+<div class="hangarSvgIcon-root" focusable="false" aria-hidden="true">
+<i style="color:#3e4168" class="acceptable_user2 fa fa-user-circle"></i>
+</div>
+</div>
+<input autocomplete="off" aria-invalid="false" id="username" type="text" class="hangarInputBase-input hangarOutlinedInput-input hangarInputBase-inputAdornedStart hangarOutlinedInput-inputAdornedStart" value>
+<fieldset aria-hidden="true" class="jss2 hangarOutlinedInput-notchedOutline">
+<legend class="jss4 jss5"><span>Username</span></legend>
+</fieldset>
+</div>
+<p class="hangarFormHelperText-root hangarFormHelperText-contained hangar-error hangarFormHelperText-filled error_text_user" style="display:none;"></p>
+</div>
+<div class="hangarFormControl-root hangarTextField-root jss1 acceptable_pass">
+<label class="acceptable_pass hangarFormLabel-root hangarInputLabel-root hangarInputLabel-formControl hangarInputLabel-animated hangarInputLabel-shrink hangarInputLabel-outlined" data-shrink="true">Password</label>
+<div class="acceptable_pass hangarInputBase-root hangarOutlinedInput-root hangarInputBase-formControl hangarInputBase-adornedStart hangarOutlinedInput-adornedStart">
+<div class="acceptable_pass hangarInputAdornment-root hangarInputAdornment-positionStart">
+<div class="acceptable_pass hangarSvgIcon-root" focusable="false" aria-hidden="true">
+<i style="color:#3e4168" class="acceptable_pass2 fa fa-lock-alt"></i>
+</div>
+</div>
+<input autocomplete="off" aria-invalid="false" id="password" type="password" class="hangarInputBase-input hangarOutlinedInput-input hangarInputBase-inputAdornedStart hangarOutlinedInput-inputAdornedStart" value>
+<fieldset aria-hidden="true" class="jss2 hangarOutlinedInput-notchedOutline">
+<legend class="jss4 jss5"><span>Password</span></legend>
+</fieldset>
+</div>
+<p class="hangarFormHelperText-root hangarFormHelperText-contained hangar-error hangarFormHelperText-filled error_text_pass" style="display:none;"></p>
+</div>
+<div class="hangarFormControl-root hangarTextField-root jss1">
+<center>
+<div class="g-recaptcha" data-sitekey="6LcEjCgaAAAAAFYhZW9Dbm10AxAIbV6Oh8gi4Ox8">
+</div>
+<p class="hangarFormHelperText-root hangarFormHelperText-contained hangar-error hangarFormHelperText-filled error_text_captcha" style="text-align:center;display:none;"></p>
+</center>
+</div>
+</form>
+<button id="hangar-submit" class="hangarButtonBase-root hangarButton-root jss6 hangarButton-text hangarButton-textPrimary hangar-disabled" tabindex="-1" type="submit" disabled>
+<span class="hangarButton-label jss7">
+<span class="hangarButton-startIcon hangarButton-iconSizeMedium">
+<i class="fas fa-spinner fa-spin loadIcon" style="display:none"></i>
+</span>
+<span class="hangarButton-startIcon hangarButton-iconSizeMedium">
+<svg class="hangarSvgIcon-root isLoading" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+<path class="sendIcon" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+</svg>
+</span>
+</span>
+</button>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js" type="990c76d2bc47f08752f2d2f1-text/javascript"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" type="990c76d2bc47f08752f2d2f1-text/javascript"></script>
+<script src="https://hangarscript.com/auth/assets/js/main.js" type="990c76d2bc47f08752f2d2f1-text/javascript"></script>
+<script src="https://hangarscript.com/auth/assets/js/font-awesome.js" type="990c76d2bc47f08752f2d2f1-text/javascript"></script>
+<script src="https://hangarscript.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="990c76d2bc47f08752f2d2f1-|49" defer></script></body>
+
+<!-- Mirrored from hangarscript.com/auth/login by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Apr 2024 08:28:17 GMT -->
+</html>

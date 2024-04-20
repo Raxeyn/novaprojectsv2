@@ -1,0 +1,37 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 20 Apr 2024 11:28:00 at https://hangarscript.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "tr, en, *" https://hangarscript.com -O1 "C:\Benim Web Sitem\Test" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:28:14	Error: 	"Not Found" (404) at link https://hangarscript.com/assets/img/ogbrand1.png (from https://hangarscript.com/)
+11:28:14	Error: 	"Not Found" (404) at link https://hangarscript.com/assets/img/apple-touch-icon.png (from https://hangarscript.com/)
+11:28:16	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://hangarscript.com/)
+11:28:17	Warning: 	Link https://hangarscript.com/auth/register not scanned (follow robots meta tag)
+11:28:17	Warning: 	Link https://hangarscript.com/auth/login not scanned (follow robots meta tag)
+11:28:45	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/5ofxvxdnjrcq2l51xxlrmqrf119et0rc.js (from https://hangarscript.com/)
+11:28:45	Warning: 	Retry after error -4 (No data (connection closed)) at link https://hangarscript.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js (from https://hangarscript.com/)
+11:28:45	Warning: 	Retry after error -4 (No data (connection closed)) at link https://hangarscript.com/assets/vendor/fontawesome/webfonts/fa-brands-400.woff2 (from https://hangarscript.com/assets/vendor/fontawesome/css/all.min.css?v=2.3)
+11:28:49	Error: 	"Forbidden" (403) at link https://jqueryvalidation.org/files/demo/site-demos.css (from https://hangarscript.com/auth/register)
+11:28:49	Warning: 	File not parsed, looks like binary: https://hangarscript.com/cf-fonts/s/kanit/5.0.18/thai/300/normal.woff2
+11:28:49	Warning: 	File not parsed, looks like binary: https://hangarscript.com/cf-fonts/s/kanit/5.0.18/latin/300/normal.woff2
+11:28:49	Warning: 	File not parsed, looks like binary: https://hangarscript.com/cf-fonts/s/kanit/5.0.18/vietnamese/300/normal.woff2
+11:28:49	Warning: 	File not parsed, looks like binary: https://hangarscript.com/cf-fonts/s/kanit/5.0.18/latin-ext/300/normal.woff2
+11:28:49	Warning: 	File not parsed, looks like binary: https://hangarscript.com/cf-fonts/s/nunito/5.0.16/latin-ext/300/normal.woff2
+11:28:50	Warning: 	File not parsed, looks like binary: https://hangarscript.com/cf-fonts/s/nunito/5.0.16/cyrillic-ext/300/normal.woff2
+11:28:50	Warning: 	File not parsed, looks like binary: https://hangarscript.com/cf-fonts/s/nunito/5.0.16/latin/300/normal.woff2
+11:28:50	Warning: 	File not parsed, looks like binary: https://hangarscript.com/cf-fonts/s/nunito/5.0.16/cyrillic/300/normal.woff2
+11:28:50	Warning: 	File not parsed, looks like binary: https://hangarscript.com/cf-fonts/s/nunito/5.0.16/vietnamese/300/normal.woff2
+11:29:23	Warning: 	Link https://hangarscript.com/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+11:29:23	Error: 	"Not Found" (404) at link https://hangarscript.com/assets/vendor/php-email-form/validate.js (from https://hangarscript.com/iletisim)
+11:29:23	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/5ofxvxdnjrcq2l51xxlrmqrf119et0rc.js (from https://hangarscript.com/)
+11:29:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://hangarscript.com/auth/assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf (from https://hangarscript.com/auth/assets/css/opensans-font.css)
+11:29:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://hangarscript.com/auth/assets/fonts/Open_Sans/OpenSans-Regular.ttf (from https://hangarscript.com/auth/assets/css/opensans-font.css)
+11:29:27	Error: 	"Not Found" (404) at link https://cdn.discordapp.com/attachments/1021907363617321011/1033064854677889024/Ow2-1.png (from https://hangarscript.com/category/overwatch2/Watchbot)
+11:29:27	Error: 	"Not Found" (404) at link https://cdn.discordapp.com/attachments/1021907363617321011/1033064854975688794/Ow2.png (from https://hangarscript.com/category/overwatch2/Watchbot)
+11:29:27	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://code.tidio.co:443/5ofxvxdnjrcq2l51xxlrmqrf119et0rc.js (from https://hangarscript.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 27 seconds : 197 links scanned, 182 files written (26364314 bytes overall) [21401632 bytes received at 245995 bytes/sec], 10596130 bytes transferred using HTTP compression in 100 files, ratio 49%, 17.1 requests per connection
+(8 errors, 18 warnings, 0 messages)
